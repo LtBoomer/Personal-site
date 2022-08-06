@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500&display=swap');
+.contactS{
+}
+.contact-context{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.contact{
+    width: 70%;
+    height: 65vh;
+    border: 2px solid white;
+    background-image:url("/Img/contacts/ezgif.com-gif-maker.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.titlu-contact{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 20px;
+}
+.titlu-contact span{
+    color: rgb(51, 22, 22);
+}
+.inputs{
+width: 100%;
+height: 50vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 20px;
+margin: 40px 0 0 0;
+}
+.input-design{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* border: 2px solid red; */
+    width: 70%;
+    height: 25%;
+    gap: 10px;
+}
+.input-design input{
+    width: 40%;
+    height: auto;
+    color: black;
+    border-radius: 15px;
+    padding: 5px;
+}
+.inputs textarea{
+    width: 50%;
+    height: 50%;
+    resize: none;
+    color: black;
+    border-radius: 10px;
+    padding:5px;
+}
+.submit-output button{
+    border-radius: 10px;
+    background-color: orange;
+    color: black;
+    /* width: 220%;
+    height: 160%; */
+    padding: 30% 70%; 
+    cursor: pointer;
+}
+.submit-output{
+    display: flex;
+    justify-content: center;
+}
+input::placeholder{
+    color:rgb(20, 17, 17);
+    font-family: 'Edu SA Beginner', cursive;
+}
+ textarea::placeholder{
+    color:rgb(20, 17, 17);
+    font-family: 'Edu SA Beginner', cursive;
+} 

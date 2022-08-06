@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/acasa.css">
+    <link rel="stylesheet" href="./css/projects.css">
+    <link rel="stylesheet" href="./css/about-me.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <script src="./script.js" defer></script>
+    <title>Personal site</title>
+</head>
+<body>
+    <div id="your-element-selector"></div>
+    <header>
+        <nav>
+            <ul>
+                <li class="hover-underline-animation "><a class="scroll_to" data-link="homeS">Acasa</a></li>
+                <li class="hover-underline-animation "><a class="scroll_to" data-link="projectS">Proiecte</a></li>
+                <li class="hover-underline-animation "><a class="scroll_to" data-link="about-meS">Despre Mine</a></li>
+                <li class="hover-underline-animation "><a class="scroll_to" data-link="ContactS">Contact</a></li>
+            </ul>
+        </nav>
+    </header> 
+    <main>
+        <section id="homeS" class="home">
+            <div class="home-context">
+                <div class="stanga">
+                    <p>Trust me, I'm a programmer!</p>
+                    <div class="arangement-left">
+                        <img src="./Img/Monitor.png">
+                    </div>
+                    
+                </div>
+                <div class="dreapta">
+                    <div class="button-down">
+                        <p>Projects</p>
+                        <a class="scroll_to" data-link="projectS"><img class="arrow-down" src="./Img/arrow-down.png"></a>
+                    </div>
+                    <div class="keyboard">
+                        <img src="./Img/Tastatura.png">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="projectS">
+            <div class="title-projects"><h1>Projects</h1></div>
+            <div class="project-wrapper">
+                <div class="context">
+                    <div class="card">
+                        <img src="./Img/Projects/Restaurant.png">
+                        <div class="text">
+                            <p>Restaurant template</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./Img/Projects/landing-page.png">
+                        <div class="text">
+                            <p>Landing Page</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./Img/Projects/Form-validation.png">
+                        <div class="text">
+                            <p>Form Validation</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="context">
+                    <div class="card exception">
+                        <img src="./Img/Projects/Js Project.png">
+                        <div class="text">
+                            <p>Custom character in JS</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./Img/Monitor.png">
+                        <div class="text">
+                            <p>Ceva Ceva</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./Img/Monitor.png">
+                        <div class="text">
+                            <p>Ceva Ceva</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about-meS">
+            <div class="title-about-me"><h1>About me</h1></div>
+            <div class="about-me-context">
+                <div class="about-me-left">
+                    <div class="progress-bar-container">
+                        <h2>Technologies⚙️</h2>
+                        <p>C++</p>
+                        <div class="progress-bars">
+                            <div class="progress-cplusplus">0%</div>
+                        </div>
+                        <p>HTML</p>
+                        <div class="progress-bars">
+                            <div class="progress-HTML">0%</div>
+                        </div>
+                        <p>CSS</p>
+                        <div class="progress-bars">
+                            <div class="progress-CSS">0%</div>
+                        </div>
+                        <p>JS</p>
+                        <div class="progress-bars">
+                            <div class="progress-JS">0%</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-me-right">
+                    <div class="about-me-description">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ipsam quisquam voluptatem cupiditate aspernatur a magnam, autem debitis minus ipsum omnis illo placeat? Fugiat voluptatibus magnam vitae, quos natus provident?</p>
+                        <img src="./Img/Profile-pic.jpg">
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section id="ContactS">
+            <div class="contact-context">
+                <div class="contact">
+                    <div class="titlu-contact">
+                        <span>Get in touch</span>
+                    </div>
+                    <div class="inputs">
+                        <div class="input-design">
+                            <input type="text" placeholder="First Name"/>
+                            <input type="text" placeholder="Last Name"/>
+                            <input type="text" placeholder="Email"/>
+                            <input type="text" placeholder="Subject"/>
+                        </div>
+                        <textarea class="messageArea" rows="4" cols="50" placeholder="Send me a message"></textarea>
+                        <div class="submit-output">
+                            <button>Submit</button>
+                        </div>
+                        <div class="validation">
+                            <p>is not valid</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <a href="https://github.com/LtBoomer" target="_blank"><img src="https://img.icons8.com/nolan/64/github.png"/></a>
+        <p>Ⓒ by Ciclosan Vlad - 2022</p>
+    </footer>
+</body>
+</html>

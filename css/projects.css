@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500&display=swap');
+#projectS{
+    height: 100vh;
+    width: 100%;
+    /* background-color: blue;  */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.project-wrapper{
+    display: flex;
+    flex-direction:column;
+    gap:50px;
+    width: 65%;
+    height: 80vh;
+    
+    /* background-color: red; */
+}
+.context{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+.card{
+    border: 2px solid white;
+    height: 35vh;
+    width: 20%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.text{
+    color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+.text p{
+    font-family: 'Edu SA Beginner', cursive;
+}
+.card img{
+    height: auto;
+    width: 100%;
+}
+.exception img{
+    height: 220px;
+    width: 100%;
+}
+.title-projects{
+    font-size: 40px;
+    margin: 0 0 60px 0;    
+}

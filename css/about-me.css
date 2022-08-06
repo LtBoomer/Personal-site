@@ -1,0 +1,114 @@
+#about-meS{
+    height: 100vh;
+    width: 100%;
+    margin: 150px 0 0 0;
+    /* border: 2px solid white; */
+}
+.about-me-context{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    /* border: 2px solid red;  */
+}
+.about-me-left{
+    width: 50%;
+    height: 100%;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: center;
+}
+.about-me-right{
+    width: 50%;
+    height: 100%;
+    /* border: 2px solid green; */
+}
+.about-me-description{
+    width:80%;
+    height: 100%;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+}
+.about-me-right img{
+    height: auto;
+    width: 500px;
+    margin-top: 50px;
+}
+.about-me-description p{
+    font-size: 24px;
+}
+.progress-bar-container{
+    width: 85%;
+    height: 70%;
+    /* border: 2px solid purple; */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.progress-bars{
+    width: 100%;
+    height: 4.5%;
+    border: 1px solid rgb(143, 147, 172);
+    margin: 6px auto 30px auto;
+}
+.progress-bar-container p{
+    margin-top: 24px;
+}
+.about-me-left h2{
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.progress-cplusplus{
+    height: 100%;
+    width: 0%;
+    background-color: rgb(19, 163, 19);
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+   
+}
+.progress-cplusplus-aniamtion{
+    transition: width 2s;
+}
+.progress-HTML{
+    height: 100%;
+    width: 0%;
+    background-color: rgb(55, 158, 206);
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+}
+.progress-HTML-aniamtion{
+    transition: width 3s;
+}
+.progress-CSS{
+    height: 100%;
+    width: 0%;
+    background-color: rgb(196, 47, 47);
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+}
+.progress-CSS-aniamtion{
+    transition: width 4s;
+}
+.progress-JS{
+    height: 100%;
+    width: 0%;
+    background-color: rgb(180, 163, 4);
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+}
+.progress-JS-aniamtion{
+    transition: width 4s;
+}
+.title-about-me{
+    font-size: 40px;
+    text-align: center;
+}
